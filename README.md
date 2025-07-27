@@ -3,9 +3,11 @@ Student Performance Prediction using Machine Learning
 This project applies supervised machine learning techniques to predict university student performance levels (Excellent, Good, Average, Poor) early in the semester, helping educational institutions proactively support at-risk students and optimize academic resources.
 
 **📌 Problem Statement**
+
   Universities often struggle to identify struggling students early enough for effective intervention. Manual monitoring and generic academic policies are inefficient. This project builds a scalable classification model to flag at-risk students based on academic history, engagement metrics, and socio-demographic data.
 
 **💡 Objectives**
+
   Predict student performance early using machine learning.
 
   Identify key factors influencing academic outcomes.
@@ -15,6 +17,7 @@ This project applies supervised machine learning techniques to predict universit
   Ensure privacy and fairness in predictions.
 
 **🧠 Machine Learning Techniques**
+
   Two main algorithms were implemented:
 
   Decision Trees (Final model – 98.98% test accuracy)
@@ -22,6 +25,7 @@ This project applies supervised machine learning techniques to predict universit
   Support Vector Machines (SVM) (Best SVM – 77.16% test accuracy)
 
 **🧪 Dataset**
+
   Collected from internal university systems
 
   Features include:
@@ -37,6 +41,7 @@ This project applies supervised machine learning techniques to predict universit
   All personally identifiable information (PII) was removed to ensure compliance with data privacy standards.
 
 **🛠️ Data Preparation**
+
   Removed irrelevant and sensitive fields
   
   Addressed missing values and outliers
@@ -50,6 +55,7 @@ This project applies supervised machine learning techniques to predict universit
   Train-test split with stratification
 
 **⚙️ Modeling & Tuning**
+
   Trained multiple Decision Tree and SVM models
   
   Tuned hyperparameters such as max_depth, min_samples_split, C, gamma, and kernel types
@@ -59,6 +65,7 @@ This project applies supervised machine learning techniques to predict universit
   Final Decision Tree model (depth=8) offered excellent balance between interpretability and accuracy
 
 **✅ Key Outcomes**
+
   98.98% test accuracy with Decision Tree
   
   High precision and recall in identifying ‘Poor’ performers
@@ -68,6 +75,7 @@ This project applies supervised machine learning techniques to predict universit
   Framework for ethical deployment with fairness checks and privacy safeguards
 
 **🔒 Ethics & Privacy**
+
   Anonymized data
   
   Ensured fair treatment across gender, socioeconomic status, and Indigenous status
@@ -75,6 +83,7 @@ This project applies supervised machine learning techniques to predict universit
   Included considerations for model interpretability and non-discrimination
 
 **📈 Future Work**
+
   Expand to larger or real-time datasets
   
   Implement ensemble methods (e.g., Random Forest, XGBoost)
